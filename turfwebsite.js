@@ -12,7 +12,7 @@ const openModal = document.querySelector('.modal')
 const closeModal = document.querySelector('.close');
 const allItems = document.querySelectorAll('.list-item');
 const allContent = document.querySelectorAll('.content');
-console.log(allItems);
+
 
 
 booknow.addEventListener('click', function(e){
