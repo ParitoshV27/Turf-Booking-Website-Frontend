@@ -1,0 +1,384 @@
+body{
+    background-image: url('turf.png');
+    background-repeat: unset;
+    background-size: 100% ;
+
+}
+header{
+    position: sticky;
+height: 77px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+
+mix-blend-mode: normal;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.navbar{
+    background-color: black;
+    opacity: 0.8;
+}
+
+.active{
+    color: rgb(0, 68, 255);
+}
+ul{
+    list-style: none;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 50px;
+cursor: pointer;
+position: absolute;
+width: 643.76px;
+height: 38px;
+left: 690px;
+top: 1px;
+}
+
+li{
+    width: 150px;
+height: 38px;
+opacity: 1;
+font-family: 'Jockey One';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 42px;
+
+color: #ff0404;
+}
+h1{
+    width: 825px;
+height: 77.76px;
+
+font-family: 'Jockey One';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 112px;
+
+color: #ff0000;
+opacity: 0.8;
+}
+
+.main{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 825px;
+height: 370.52px;
+left: 126px;
+top: 150px;
+
+
+}
+
+
+.desc{
+    width: 825px;
+height: 77.76px;
+
+font-family: 'Jockey One';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 42px;
+color: rgb(0, 0, 0);
+opacity: 0.7;
+
+
+}
+
+.dis{
+    width: 825px;
+height: 98px;
+
+font-family: 'Lao Muang Khong';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+color:rgb(17, 0, 149);
+opacity: 0.7;
+}
+
+button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 10px 25px;
+gap: 10px;
+
+position: sticky;
+width: 179px;
+height: 72px;
+left: 20px;
+top: 20px;
+cursor: pointer;
+background: #0000006b;
+border: 5px solid #ff0404;
+border-radius: 5px;
+}
+.bookprices{
+    cursor: pointer;
+}
+.booknow{
+    cursor: pointer;
+    
+}
+
+
+.btn-text{
+    
+
+    width: 300px;
+    height: 20px;
+    cursor: pointer;
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    
+    color: #ff0404;
+    opacity: 0.8;
+}
+
+.con-text{
+    width: 300px;
+    height: -10px;
+    cursor: pointer;
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    
+    color: #ff0404;
+    opacity: 0.8;
+
+}
+
+.prices{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+    position: absolute;
+    width: 825px;
+    height: 370.52px;
+    left: 126px;
+    top: 200px;
+}
+
+.hidden{
+    opacity: 0;
+}
+
+.pricestitle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+    
+    position: absolute;
+    width: 825px;
+    height: 370.52px;
+    left: 0px;
+    top: 50px;
+
+}
+
+.inputs{
+    position: absolute;
+width: 815px;
+height: 296px;
+left: 126px;
+top: 218px;
+
+}
+
+.date{
+    box-sizing: border-box;
+
+position: absolute;
+width: 353px;
+height: 57px;
+left: 126px;
+top: 20px;
+
+background: #D9D9D9;
+border: 3px solid #000000;
+border-radius: 10px;
+}
+
+.timeslot{
+    box-sizing: border-box;
+
+position: absolute;
+width: 353px;
+height: 57px;
+left: 126px;
+top: 150px;
+
+background: #D9D9D9;
+border: 3px solid #000000;
+border-radius: 10px;
+}
+
+.phonenumber{
+    box-sizing: border-box;
+
+position: absolute;
+width: 353px;
+height: 57px;
+left: 126px;
+top: 300px;
+
+background: #D9D9D9;
+border: 3px solid #000000;
+border-radius: 10px;
+}
+
+.datelab{
+    position: absolute;
+width: 224px;
+height: 35px;
+left: 148px;
+top: -25px;
+
+font-family: 'Jockey One';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 35px;
+}
+
+.timelab{
+    position: absolute;
+width: 224px;
+height: 35px;
+left: 148px;
+top: 100px;
+
+font-family: 'Jockey One';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 35px;
+}
+
+.phnlab{
+    position: absolute;
+width: 224px;
+height: 35px;
+left: 148px;
+top: 250px;
+
+font-family: 'Jockey One';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 35px;
+}
+
+.confirm{
+    display: flex;
+flex-direction: row;
+
+align-items: center;
+padding: 10px 25px;
+gap: 0px;
+
+position: absolute;
+width: 193px;
+height: 72px;
+left: 126px;
+top: 400px;
+}
+
+.contact{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 3px;
+
+position: absolute;
+width: 825px;
+height: 370.52px;
+left: 126px;
+top: 160px;
+
+width: 850px;
+height: 77.76px;
+
+font-family: 'Jockey One';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 112px;
+
+color: rgb(17, 0, 149);
+
+
+}
+
+.modal {
+    
+     /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  .blur{
+    filter: blur(2px);
+  }
+
+  .hidemodal{
+    display: none;
+  }
